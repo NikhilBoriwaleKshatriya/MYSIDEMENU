@@ -14,6 +14,9 @@
 		F15E76EC20A05FC000B42672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E76EA20A05FC000B42672 /* LaunchScreen.storyboard */; };
 		F15E76F720A05FC000B42672 /* MYSIDEMENUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E76F620A05FC000B42672 /* MYSIDEMENUTests.swift */; };
 		F15E770220A05FC000B42672 /* MYSIDEMENUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E770120A05FC000B42672 /* MYSIDEMENUUITests.swift */; };
+		F15E771020A0614D00B42672 /* sidemenutablecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E770F20A0614D00B42672 /* sidemenutablecell.swift */; };
+		F15E771220A0764000B42672 /* usernameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E771120A0764000B42672 /* usernameVC.swift */; };
+		F15E771420A0766000B42672 /* emailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E771320A0766000B42672 /* emailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F15E76FD20A05FC000B42672 /* MYSIDEMENUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYSIDEMENUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15E770120A05FC000B42672 /* MYSIDEMENUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYSIDEMENUUITests.swift; sourceTree = "<group>"; };
 		F15E770320A05FC100B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E770F20A0614D00B42672 /* sidemenutablecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenutablecell.swift; sourceTree = "<group>"; };
+		F15E771120A0764000B42672 /* usernameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usernameVC.swift; sourceTree = "<group>"; };
+		F15E771320A0766000B42672 /* emailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				F15E76E120A05FC000B42672 /* AppDelegate.swift */,
 				F15E76E320A05FC000B42672 /* ViewController.swift */,
+				F15E770F20A0614D00B42672 /* sidemenutablecell.swift */,
+				F15E771120A0764000B42672 /* usernameVC.swift */,
+				F15E771320A0766000B42672 /* emailVC.swift */,
 				F15E76E520A05FC000B42672 /* Main.storyboard */,
 				F15E76E820A05FC000B42672 /* Assets.xcassets */,
 				F15E76EA20A05FC000B42672 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15E771220A0764000B42672 /* usernameVC.swift in Sources */,
 				F15E76E420A05FC000B42672 /* ViewController.swift in Sources */,
+				F15E771420A0766000B42672 /* emailVC.swift in Sources */,
 				F15E76E220A05FC000B42672 /* AppDelegate.swift in Sources */,
+				F15E771020A0614D00B42672 /* sidemenutablecell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = MYSIDEMENU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.MYSIDEMENU;
@@ -441,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQS9CNTUX7;
 				INFOPLIST_FILE = MYSIDEMENU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.MYSIDEMENU;
